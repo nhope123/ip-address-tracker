@@ -14,7 +14,7 @@ const LeafyMap: FC = () => {
     <Map
       style="mapbox://styles/mapbox/streets-v9"
       containerStyle={{
-        height: '100vh',
+        height: 'calc(100vh - 26vh)',
         width: '100vw'
       }}
       center={[-79.3849,43.6529]}

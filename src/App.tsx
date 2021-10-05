@@ -1,11 +1,11 @@
 import React from 'react';
-import IpSearch from './components/IpSearch';
 import LeafyMap from './components/LeafyMap';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <IpSearch />
+      <Header />
       <LeafyMap />
     </div>
   );

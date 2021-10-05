@@ -28,13 +28,13 @@ interface Proxy {
   tor: boolean,
 }
 
-interface IpAddress {
+export interface IpAddress {
   ip: string,
   location: Location,
-  domains: string[],
-  as: AssignedName,
+  domains?: string[],
+  as?: AssignedName,
   isp: string,
-  proxy: Proxy,
+  proxy?: Proxy,
 }
 
 
